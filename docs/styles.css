@@ -12,3 +12,11 @@ body {
 img {
   margin: 10px;
 }
+
+div[role="tecnologias"] {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
