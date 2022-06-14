@@ -13,6 +13,28 @@ img {
   margin: 10px;
 }
 
+img.icon {
+  width: 20px;
+  height: 20px;
+}
+
+div.tech-logo img {
+  height: auto;
+  width: 100px;
+}
+
+div.tech-logo {
+  margin: 5px;
+  height: 140px;
+  width: 140px;
+  display: grid;
+  border-radius: 70px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(218, 221, 226);
+  box-shadow: 2px 2px 3px #999;
+}
+
 div[role="tecnologias"] {
   display: flex;
   flex-direction: row;
@@ -20,3 +42,9 @@ div[role="tecnologias"] {
   align-items: center;
   justify-content: center;
 }
+
+div.in-line {
+  display: flex;
+  align-items: center;
+}
+
