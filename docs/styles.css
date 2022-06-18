@@ -2,13 +2,6 @@ body {
   padding: 5px;
 }
 
-#informacionppal {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
 img {
   margin: 10px;
 }
@@ -35,16 +28,21 @@ div.tech-logo {
   box-shadow: 2px 2px 3px #999;
 }
 
-div[role="tecnologias"] {
+.in-line {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.center {
   align-items: center;
   justify-content: center;
 }
 
-div.in-line {
-  display: flex;
+.centerVertically {
   align-items: center;
 }
 
+.list-info {
+  margin-left: 40px;
+}
