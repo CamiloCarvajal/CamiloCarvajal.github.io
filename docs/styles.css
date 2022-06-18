@@ -13,6 +13,11 @@ h3 {
   font-size: 18px;
 }
 
+dt {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
 body {
   padding: 5px;
 }
