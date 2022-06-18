@@ -1,0 +1,9 @@
+@font-face {
+    font-family: CustomProzaLibreBold;
+    src: url(resources/fonts/Proza_Libre/ProzaLibre-Bold.ttf);
+}
+
+@font-face {
+    font-family: CustomProzaLibreRegular;
+    src: url(resources/fonts/Proza_Libre/ProzaLibre-Regular.ttf);
+}
