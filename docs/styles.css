@@ -99,3 +99,32 @@ div.tech-logo {
   left: 30%;
   color: white;
 }
+
+footer {
+  width: 100%;
+  background-color: #122832;
+  position: absolute;
+  margin-top: 40px;
+}
+
+footer label{
+  color: rgb(218, 221, 226);;
+}
+
+.footer-section-main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%;
+  margin: 20px 0px 30px 0px;
+}
+
+/*display: inline-flex;*/
+/*align-items: center;*/
+/*justify-content: center;*/
+/*flex-direction: row;*/
+/*align-content: space-around;*/
+/*flex-wrap: wrap;*/
+/*height: 100%;*/
+/*width: 100%;*/
