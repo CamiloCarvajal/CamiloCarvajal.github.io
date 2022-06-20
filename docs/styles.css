@@ -94,10 +94,10 @@ div.tech-logo {
 }
 
 #informacionppal {
-  position: absolute;
-  top: 15%;
-  left: 30%;
+  top: 10px;
+  left: 10px;
   color: white;
+  position: absolute;
 }
 
 footer {
