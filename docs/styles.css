@@ -1,16 +1,42 @@
+/*#0A2239;*/
+/*#53A2BE;*/
+/*#1D84B5*/
+/*#132E32;*/
+/*#176087;*/
+/*https://coolors.co/0a2239-53a2be-1d84b5-132e32-176087*/
+
+body{
+  background-color: #e9f5f9;
+}
+
+
 h1 {
   font-family: CustomProzaLibreBold;
-  font-size: 30px;
+  font-size: 32px;
 }
 
 h2 {
   font-family: CustomProzaLibreBold;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 h3 {
   font-family: CustomProzaLibreRegular;
   font-size: 18px;
+}
+
+p {
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: justify;
+}
+
+p, dd {
+  font-size: 17px;
+}
+
+.list-info h3 {
+  color: #176087;
 }
 
 dt {
@@ -51,7 +77,7 @@ img.profile {
 }
 
 img.main-background {
-  border-radius: 0px 0px 20px 20px;
+  /*border-radius: 0px 0px 20px 20px;*/
   position: relative;
   width: 100%;
   /* opacity: 0.9; */
@@ -67,11 +93,14 @@ div.tech-logo {
   height: 140px;
   width: 140px;
   display: grid;
+  border-width: 1px;
   border-radius: 70px;
   align-items: center;
   justify-content: center;
   background-color: rgb(218, 221, 226);
   box-shadow: 2px 2px 3px #999;
+  border-color: #ffffff;
+  border-style: solid;
 }
 
 .in-line {
@@ -89,7 +118,7 @@ div.tech-logo {
   align-items: center;
 }
 
-.list-info {
+.sangria40 {
   margin-left: 40px;
 }
 
@@ -102,13 +131,9 @@ div.tech-logo {
 
 footer {
   width: 100%;
-  background-color: #122832;
+  background-color: #132E32;
   position: absolute;
   margin-top: 40px;
-}
-
-footer label{
-  color: rgb(218, 221, 226);;
 }
 
 .footer-section-main {
@@ -120,11 +145,12 @@ footer label{
   margin: 20px 0px 30px 0px;
 }
 
-/*display: inline-flex;*/
-/*align-items: center;*/
-/*justify-content: center;*/
-/*flex-direction: row;*/
-/*align-content: space-around;*/
-/*flex-wrap: wrap;*/
-/*height: 100%;*/
-/*width: 100%;*/
+footer a {
+  color: #bee0ec;
+  text-decoration: none;
+}
+
+footer label {
+  color: rgb(218, 221, 226);;
+}
+
