@@ -1,9 +1,12 @@
+:root {
+  --accentGreen: #132E32;
+  --accentBlue: #176087;
+}
+
+/*https://coolors.co/0a2239-53a2be-1d84b5-132e32-176087*/
 /*#0A2239;*/
 /*#53A2BE;*/
 /*#1D84B5*/
-/*#132E32;*/
-/*#176087;*/
-/*https://coolors.co/0a2239-53a2be-1d84b5-132e32-176087*/
 
 body{
   background-color: #e9f5f9;
@@ -17,12 +20,17 @@ h1 {
 
 h2 {
   font-family: CustomProzaLibreBold;
-  font-size: 22px;
+  font-size: x-large;
 }
 
 h3 {
   font-family: CustomProzaLibreRegular;
   font-size: 18px;
+  color: var(--accentBlue);
+}
+
+#informacionppal h3 {
+  color: white !important;
 }
 
 p {
@@ -35,9 +43,12 @@ p, dd {
   font-size: 17px;
 }
 
-.list-info h3 {
-  color: #176087;
-}
+/*.sangria40 h3 {*/
+/*  color: #176087;*/
+/*  font-weight: bold;*/
+/*  font-size: xxx-large;*/
+
+/*}*/
 
 dt {
   margin-top: 10px;
@@ -45,23 +56,6 @@ dt {
 }
 
 /*https://es.stackoverflow.com/questions/174400/cómo-superponer-dos-imágenes*/
-.eye{
-  position:absolute;
-  height:200px;
-  width:200px;
-  top: 40px;
-  left : 40px;
-  z-index: 1;
-}
-
-.heaven
-{
-  position:absolute;
-  height:300px;
-  width:300px;
-  z-index: -1;
-}
-
 img.icon {
   width: 20px;
   height: 20px;
@@ -80,7 +74,6 @@ img.main-background {
   /*border-radius: 0px 0px 20px 20px;*/
   position: relative;
   width: 100%;
-  /* opacity: 0.9; */
 }
 
 div.tech-logo img {
@@ -101,11 +94,13 @@ div.tech-logo {
   box-shadow: 2px 2px 3px #999;
   border-color: #ffffff;
   border-style: solid;
+  transition: all 600ms;
 }
 
 div.tech-logo:hover {
   background-color: rgba(19, 46, 50, 0.18);
   border-color: #132E32;
+  transform: scale(1.04);
 }
 
 .in-line {
