@@ -103,6 +103,11 @@ div.tech-logo {
   border-style: solid;
 }
 
+div.tech-logo:hover {
+  background-color: rgba(19, 46, 50, 0.18);
+  border-color: #132E32;
+}
+
 .in-line {
   display: flex;
   flex-wrap: wrap;
