@@ -35,7 +35,7 @@ h3 {
 
 p {
   margin-left: 40px;
-  margin-right: 40px;
+  /*margin-right: 40px;*/
   text-align: justify;
 }
 
@@ -124,14 +124,13 @@ div.tech-logo:hover {
 
 #informacionppal {
   top: 10px;
-  left: 10px;
+  /*left: 10px;*/
   color: white;
   position: absolute;
 }
 
 footer {
   width: 100%;
-  padding: 20px;
   background-color: #132E32;
   position: absolute;
   margin-top: 40px;
